@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Creolia';
+    src: url('Creolia.eot');
+    src: local('Creolia Bold'), local('Creolia'),
+        url('Creolia.eot?#iefix') format('embedded-opentype'),
+        url('Creolia.woff2') format('woff2'),
+        url('Creolia.woff') format('woff'),
+        url('Creolia.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

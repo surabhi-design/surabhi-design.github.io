@@ -1,0 +1,42 @@
+/* src/font.css */
+@font-face {
+    font-family: 'Verona TS-Bold';
+    src: url('./assets/fonts/Verona-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antikor';
+    src: url('./assets/fonts/antikor.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Creolia';
+    src: url('./assets/fonts/Creolia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'flexalight';
+    src: url('./assets/fonts/flexalight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'alpinaitalic';
+    src: url('./assets/fonts/alpinaitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'flexabold';
+    src: url('./assets/fonts/flexabold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
