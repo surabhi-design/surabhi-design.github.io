@@ -143,7 +143,10 @@ const ContentWrapper = styled.div`
   }
 
   @media (max-width: 480px) {
-    margin-top: 30px;
+    flex-direction: column; /* Ensure stacking */
+    align-items: center; /* Center content on small screens */
+    margin-top: 20px; /* Reduce margin to avoid cutting */
+    padding: 0 10px; /* Add padding for better spacing */
   }
 `;
 
@@ -178,8 +181,22 @@ const TextWrapper = styled.div`
     max-width: 100%;
     margin-left: 10px;
     margin-right: 10px;
+
+    /* Generalized margin-top for small screens */
+    margin-top: calc(10vh + 20px); /* Dynamically adjust based on viewport height */
+
+    /* Fine-tuning for iPhone SE (320px width) */
+    @media (max-width: 420px) {
+      margin-top: 155px;
+    }
+
+    /* Fine-tuning for iPhone 14 Pro Max (430px width) */
+    @media (min-width: 430px) and (max-width: 480px) {
+      margin-top: 35px;
+    }
   }
 `;
+
 
 const Title = styled.h2`
   font-family: 'flexalight', sans-serif;
