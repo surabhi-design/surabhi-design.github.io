@@ -150,11 +150,7 @@ const ProjectCard = styled.div`
   padding: 0;
   width: 95%;
   max-width: 1500px;
-  transition: transform 0.3s ease-in-out;
 
-  &:hover {
-    transform: translateY(-10px);
-  }
 
   @media (max-width: 1024px) {
     flex-direction: column;
