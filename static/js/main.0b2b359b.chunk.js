@@ -294,7 +294,7 @@
     padding: 8px 15px;
     font-size: 14px;
   }
-`;var R=a(14),k=a.n(R),F=a(15),j=a.n(F),S=a(16),A=a.n(S),T=a(17),O=a.n(T),D=a(18),L=a.n(D);var B=()=>{const e=[{title:"GreenMind (User Experience)",description:"Greenmind is a website that promotes positive climate narratives for environmentally conscious individuals seeking hope and actionable solutions.",video:k.a,link:"https://www.figma.com/proto/hbABR9CVMz9bod50InohZM/Greenmind-Website-UI?page-id=191%3A28&node-id=191-29&viewport=300%2C1504%2C0.14&t=qRDrEVjBZtCo4bh8-1&scaling=scale-down-width&content-scaling=fixed",label:{text:"USER EXPERIENCE",color:"#004735",code:"004735",rotation:"-4deg",marginRight:"100px"}},{title:"FindFreeFood(Interaction Design)",description:"Find free food is a mobile application designed for students on campus to - you guessed it - find free food! This app keeps track of all the events going on campus and sends alerts whenever there is free food nearby.",image:j.a,link:"https://www.figma.com/proto/NspGcwBdveeytsVCci2FMx/Surabhi-Singh---Pitch-Course-Project?page-id=528%3A1262&node-id=530-1059&viewport=389%2C176%2C0.08&t=PnfUBU9qZoWmiYiH-1&scaling=scale-down-width&content-scaling=fixed",label:{text:"INTERACTIVE DESIGN",color:"#5A6E27",code:"#5A6E27",rotation:"5deg",marginLeft:"-20px"}},{title:"Derma-e (Branding)",description:"Redesigning a Pharmaceutical skin care brand to make it more visually appealing and creating a numeric system that makes skincare as easy as 1 2 3.",image:A.a,link:"https://www.behance.net/gallery/176141145/Derma-E-RebrandingCasestudy",label:{text:"BRANDING",color:"#CE8EC0",code:"#CE8EC0",rotation:"-7deg",marginRight:"100px"}},{title:"Riff (Motion Design)",description:"\n      Riff is a hypothetical music label company, with a soda on the side!\nIt's a harmonious blend of refreshment and rhythm, where every sip is a note in a delicious symphony. Whether you're into the classics or the latest hits, Riff is here to quench your thirst for both music and refreshment.\n      ",image:O.a,link:"https://vimeo.com/880016031?share=copy",label:{text:"MOTION DESIGN",color:"#DCE4CF",code:"#DCE4CF",rotation:"7deg",marginLeft:"20px"}},{title:"Jazz Music Festival (Typography) ",description:"The Goal of this project was to explore the relationship between type and image. This brochure is text heavy but needs there is no information overload",image:L.a,link:"https://www.behance.net/gallery/169089697/Rochester-Jazz-Festival-Brochure",label:{text:"TYPOGRAPHY ",color:"#FF9416",code:"#FF9416",rotation:"7deg",marginLeft:"20px",marginRight:"60px"}}];return n.a.createElement(P,null,n.a.createElement(m,{activeTab:"projects"})," ",n.a.createElement(M,null,"Work")," ",n.a.createElement(G,null,e.map((e,t)=>n.a.createElement($,{key:t},n.a.createElement(U,null,e.video?n.a.createElement(H,{src:e.video,muted:!0,autoPlay:!0,loop:!0}):n.a.createElement(Y,{src:e.image,alt:e.title}),n.a.createElement(V,{color:e.label.color,rotation:e.label.rotation,textColor:"#030303",marginLeft:e.label.marginLeft,marginRight:e.label.marginRight},n.a.createElement("span",{className:"text"},e.label.text),n.a.createElement("span",{className:"code"},e.label.code))),n.a.createElement(W,null,n.a.createElement(X,null,e.title),n.a.createElement(J,null,e.description),n.a.createElement(_,{href:e.link,target:"_blank",rel:"noopener noreferrer"},"View Project"))))))};const P=s.a.div`
+`;var R=a(14),k=a.n(R),F=a(15),j=a.n(F),S=a(16),A=a.n(S),T=a(17),O=a.n(T),D=a(18),L=a.n(D);var B=()=>{const e=[{title:"GreenMind (User Experience)",description:"Greenmind is a website that promotes positive climate narratives for environmentally conscious individuals seeking hope and actionable solutions.",video:k.a,link:"https://www.figma.com/proto/hbABR9CVMz9bod50InohZM/Greenmind-Website-UI?page-id=191%3A28&node-id=191-29&viewport=300%2C1504%2C0.14&t=qRDrEVjBZtCo4bh8-1&scaling=scale-down-width&content-scaling=fixed",label:{text:"USER EXPERIENCE",color:"#004735",code:"004735",rotation:"-4deg",marginRight:"100px"}},{title:"FindFreeFood(Interaction Design)",description:"Find free food is a mobile application designed for students on campus to - you guessed it - find free food! This app keeps track of all the events going on campus and sends alerts whenever there is free food nearby.",image:j.a,link:"https://www.figma.com/proto/NspGcwBdveeytsVCci2FMx/Surabhi-Singh---Pitch-Course-Project?page-id=528%3A1262&node-id=530-1059&viewport=389%2C176%2C0.08&t=PnfUBU9qZoWmiYiH-1&scaling=scale-down-width&content-scaling=fixed",label:{text:"INTERACTIVE DESIGN",color:"#5A6E27",code:"#5A6E27",rotation:"5deg",marginLeft:"-20px"}},{title:"Derma-e (Branding)",description:"Redesigning a Pharmaceutical skin care brand to make it more visually appealing and creating a numeric system that makes skincare as easy as 1 2 3.",image:A.a,link:"https://www.behance.net/gallery/176141145/Derma-E-RebrandingCasestudy",label:{text:"BRANDING",color:"#CE8EC0",code:"#CE8EC0",rotation:"-7deg",marginRight:"100px"}},{title:"Riff (Motion Design)",description:"\n      Riff is a hypothetical music label company, with a soda on the side!\nIt's a harmonious blend of refreshment and rhythm, where every sip is a note in a delicious symphony. Whether you're into the classics or the latest hits, Riff is here to quench your thirst for both music and refreshment.\n      ",image:O.a,link:"https://vimeo.com/880016031?share=copy",label:{text:"MOTION DESIGN",color:"#DCE4CF",code:"#DCE4CF",rotation:"7deg",marginLeft:"20px"}},{title:"Jazz Music Festival (Typography) ",description:"The Goal of this project was to explore the relationship between type and image. This brochure is text heavy but needs there is no information overload",image:L.a,link:"https://www.behance.net/gallery/169089697/Rochester-Jazz-Festival-Brochure",label:{text:"TYPOGRAPHY ",color:"#FF9416",code:"#FF9416",rotation:"7deg",marginLeft:"20px",marginRight:"60px"}}];return n.a.createElement(P,null,n.a.createElement(m,{activeTab:"projects"})," ",n.a.createElement(M,null,"Work")," ",n.a.createElement(G,null,e.map((e,t)=>n.a.createElement($,{key:t},n.a.createElement(U,null,e.video?n.a.createElement(Y,{src:e.video,muted:!0,autoPlay:!0,loop:!0}):n.a.createElement(H,{src:e.image,alt:e.title}),n.a.createElement(V,{color:e.label.color,rotation:e.label.rotation,textColor:"#030303",marginLeft:e.label.marginLeft,marginRight:e.label.marginRight},n.a.createElement("span",{className:"text"},e.label.text),n.a.createElement("span",{className:"code"},e.label.code))),n.a.createElement(W,null,n.a.createElement(X,null,e.title),n.a.createElement(J,null,e.description),n.a.createElement(_,{href:e.link,target:"_blank",rel:"noopener noreferrer"},"View Project"))))))};const P=s.a.div`
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -339,11 +339,7 @@
   padding: 0;
   width: 95%;
   max-width: 1500px;
-  transition: transform 0.3s ease-in-out;
 
-  &:hover {
-    transform: translateY(-10px);
-  }
 
   @media (max-width: 1024px) {
     flex-direction: column;
@@ -362,7 +358,7 @@
     align-items: center;
     padding: 0 15px; /* Add padding to prevent cut-off */
   }
-`,Y=s.a.img`
+`,H=s.a.img`
   width: 670px;
   height: 312px;
   border-radius: 15px;
@@ -386,7 +382,7 @@
     height: auto;
     padding: 0 0;
   }
-`,H=s.a.video`
+`,Y=s.a.video`
   width: 670px;
   height: 312px;
   border-radius: 15px;
@@ -893,4 +889,4 @@
     font-size: 10px;
   }
 `;a(35);function Le(){const[e,t]=Object(i.useState)(!1),[a,o]=Object(i.useState)("home"),r=Object(l.m)();return Object(i.useEffect)(()=>{switch(r.pathname){case"/":o("home"),t(!1);break;case"/projects":o("projects"),t(!0);break;case"/about":o("about"),t(!0);break;default:o("home")}},[r.pathname]),n.a.createElement("div",{style:{backgroundColor:"projects"===a?"#000":"#EBF5F4",minHeight:"100vh"}},n.a.createElement(m,{activeTab:a}),n.a.createElement(l.c,null,n.a.createElement(l.a,{path:"/",element:n.a.createElement(Re,{setShowFooter:t,setActiveTab:o})}),n.a.createElement(l.a,{path:"/projects",element:n.a.createElement(B,{setActiveTab:o})}),n.a.createElement(l.a,{path:"/about",element:n.a.createElement(pe,{setActiveTab:o})})),e&&n.a.createElement(ke,null))}function Be(){return n.a.createElement(d.a,null,n.a.createElement(Le,null))}var Pe=e=>{e&&e instanceof Function&&a.e(3).then(a.bind(null,37)).then(t=>{let{getCLS:a,getFID:i,getFCP:n,getLCP:o,getTTFB:r}=t;a(e),i(e),n(e),o(e),r(e)})};r.a.createRoot(document.getElementById("root")).render(n.a.createElement(n.a.StrictMode,null,n.a.createElement(Be,null))),Pe()}],[[27,1,2]]]);
-//# sourceMappingURL=main.35ba50fc.chunk.js.map
+//# sourceMappingURL=main.0b2b359b.chunk.js.map
