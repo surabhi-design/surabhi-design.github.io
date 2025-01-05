@@ -15,7 +15,7 @@ const Projects = () => {
       description: `Greenmind is a website that promotes positive climate narratives for environmentally conscious individuals seeking hope and actionable solutions.`,
       video: p1Video,
       link: "https://www.figma.com/proto/hbABR9CVMz9bod50InohZM/Greenmind-Website-UI?page-id=191%3A28&node-id=191-29&viewport=300%2C1504%2C0.14&t=qRDrEVjBZtCo4bh8-1&scaling=scale-down-width&content-scaling=fixed",
-      label: { text: "MOTION DESIGN", color: "#DCE4CF", code: "DCE4CF", rotation: "-4deg", marginRight: "100px" }
+      label: { text: "USER EXPERIENCE", color: "#004735", code: "004735", rotation: "-4deg", marginRight: "100px" }
     },
     {
       title: "FindFreeFood(Interaction Design)",
@@ -23,9 +23,9 @@ const Projects = () => {
       image: p2,
       link: "https://www.figma.com/proto/NspGcwBdveeytsVCci2FMx/Surabhi-Singh---Pitch-Course-Project?page-id=528%3A1262&node-id=530-1059&viewport=389%2C176%2C0.08&t=PnfUBU9qZoWmiYiH-1&scaling=scale-down-width&content-scaling=fixed",
       label: { 
-        text: "TYPOGRAPHY", 
-        color: "#FF9416", 
-        code: "#FF9416", 
+        text: "INTERACTIVE DESIGN", 
+        color: "#5A6E27", 
+        code: "#5A6E27", 
         rotation: "5deg", 
         marginLeft: "-20px" 
       }
@@ -51,14 +51,14 @@ It's a harmonious blend of refreshment and rhythm, where every sip is a note in 
       `,
       image: p4,
       link: "https://vimeo.com/880016031?share=copy",
-      label: { text: "BRANDING", color: "#CE8EC0", code: "CE8EC0", rotation: "7deg", marginLeft: "20px" }
+      label: { text: "MOTION DESIGN", color: "#DCE4CF", code: "#DCE4CF", rotation: "7deg", marginLeft: "20px" }
     },
     {
       title: "Jazz Music Festival (Typography) ",
       description: "The Goal of this project was to explore the relationship between type and image. This brochure is text heavy but needs there is no information overload",
       image: p5,
       link: "https://www.behance.net/gallery/169089697/Rochester-Jazz-Festival-Brochure",
-      label: { text: "USER EXPERIENCE ", color: "#004735", code: "004735", rotation: "7deg", marginLeft: "20px", marginRight: "60px" }
+      label: { text: "TYPOGRAPHY ", color: "#FF9416", code: "#FF9416", rotation: "7deg", marginLeft: "20px", marginRight: "60px" }
     },
   ];
 
@@ -231,11 +231,6 @@ const ImageWrapper = styled.div`
   flex: 2;
   position: relative;
   margin-right: 40px;
-  transition: transform 0.3s ease-in-out;
-
-  ${ProjectCard}:hover & {
-    transform: scale(1.05);
-  }
 
   @media (max-width: 1024px) {
     margin-right: 0;
