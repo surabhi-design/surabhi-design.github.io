@@ -18,21 +18,13 @@ const About = () => {
           <ProfileImage src={SurabhiAboutImage} alt="Surabhi Singh" />
           <TextWrapper>
             <Paragraph>
-            I am so passionate about good design that I travelled to Lyon, France to volunteer at WorldSkills Competition just so that I could identify the world design trends.
-            <br /> 
-With experience of over 4 years, I am fluent in Adobe Creative Suite, Figma, Cinema 4D, and Microsoft Office. I definitely know my softwares.
-<br /> 
-With a strong foundation of design principles, I have done my homework on what makes a design intuitive and magical. My designs work just the way you expect them to work. 
-<br />
-Being a Digital Designer, I am always curious about the design of other things. As a student of Vignelli’s I am a firm believer of Design is One. Hence if you can design one thing, you can design anything. 
-              <br />
-              Talk to me about:
               <ul>
-                <li>Design</li>
-                <li>Chess</li>
-                <li>Travel</li>
-                <li>Harry Potter books</li>
+            <li>I am so passionate about good design that I travelled to Lyon, France to volunteer at WorldSkills Competition just so that I could identify the world design trends.</li>
+            <li>With experience of over 4 years, I am fluent in Adobe Creative Suite, Figma, Cinema 4D, and Microsoft Office. I definitely know my softwares.</li>
+<li>With a strong foundation of design principles, I have done my homework on what makes a design intuitive and magical. My designs work just the way you expect them to work.</li> 
+<li>Being a Digital Designer, I am always curious about the design of other things. As a student of Vignelli’s I am a firm believer of Design is One. Hence if you can design one thing, you can design anything. </li>
               </ul>
+              Talk to me about Design, Chess, Travel and my love for Harry Potter Books
               <Email href="mailto:singhsurabhi.design@gmail.com">
                 <FaEnvelope /> singhsurabhi.design@gmail.com
               </Email>
