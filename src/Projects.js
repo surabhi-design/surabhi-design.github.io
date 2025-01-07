@@ -57,7 +57,7 @@ It's a harmonious blend of refreshment and rhythm, where every sip is a note in 
     },
     {
       title: "Jazz Music Festival",
-      description: "The Goal of this project was to explore the relationship between type and image. This brochure is text heavy but needs there is no information overload",
+      description: "The goal of this project was to explore the relationship between type and image. This brochure is text-heavy but avoids information overload.",
       image: p5,
       link: "https://www.behance.net/gallery/169089697/Rochester-Jazz-Festival-Brochure",
       label: { text: "TYPOGRAPHY ", color: "#FF9416", code: "#FF9416", rotation: "7deg", marginLeft: "20px", marginRight: "60px",textColor: "#FFFFFF" }
@@ -80,7 +80,7 @@ It's a harmonious blend of refreshment and rhythm, where every sip is a note in 
               <MotionLabel
                 color={project.label.color}
                 rotation={project.label.rotation}
-                textColor="#030303"
+                textColor={project.title === "Riff" ? "#000000" : "#FFFFFF"} // Conditionally set text color
                 marginLeft={project.label.marginLeft}
                 marginRight={project.label.marginRight}
               >
@@ -254,7 +254,6 @@ const MotionLabel = styled.div`
   left: 10px;
   font-family: 'flexalight', sans-serif;
   font-size: 14px;
-  color: ${({ textColor }) => textColor || '#ffffff'};
   background-color: ${({ color }) => color};
   padding: 8px 15px;
   transform: rotate(${({ rotation }) => rotation});
@@ -278,6 +277,7 @@ const MotionLabel = styled.div`
   .text {
     flex: 1;
     text-align: left;
+    color: ${({ textColor }) => textColor || '#ffffff'}; /* Apply textColor */
   }
 
   .code {
@@ -285,6 +285,7 @@ const MotionLabel = styled.div`
     text-align: right;
     margin-left: 10px;
     font-family: 'Courier New', monospace;
+    color: ${({ textColor }) => textColor || '#ffffff'}; /* Apply textColor */
   }
 `;
 
