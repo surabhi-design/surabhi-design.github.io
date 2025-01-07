@@ -26,7 +26,13 @@ With a strong foundation of design principles, I have done my homework on what m
 <br />
 Being a Digital Designer, I am always curious about the design of other things. As a student of Vignelli’s I am a firm believer of Design is One. Hence if you can design one thing, you can design anything. 
               <br />
-              Talk to me about design, travel, and my love for Harry Potter books.
+              Talk to me about:
+              <ul>
+                <li>Design</li>
+                <li>Travel</li>
+                <li>Harry Potter books</li>
+              </ul>
+              <br />
               <br />
               <Email href="mailto:singhsurabhi.design@gmail.com">
                 <FaEnvelope /> singhsurabhi.design@gmail.com
