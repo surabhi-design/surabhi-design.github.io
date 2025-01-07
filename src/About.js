@@ -33,8 +33,6 @@ Being a Digital Designer, I am always curious about the design of other things. 
                 <li>Travel</li>
                 <li>Harry Potter books</li>
               </ul>
-              <br />
-              <br />
               <Email href="mailto:singhsurabhi.design@gmail.com">
                 <FaEnvelope /> singhsurabhi.design@gmail.com
               </Email>
