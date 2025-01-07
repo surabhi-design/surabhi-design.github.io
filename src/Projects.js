@@ -11,14 +11,14 @@ import Header from './Header'; // Import the Header component
 const Projects = () => {
   const projectData = [
     {
-      title: "GreenMind (User Experience)",
+      title: "GreenMind",
       description: `Greenmind is a website that promotes positive climate narratives for environmentally conscious individuals seeking hope and actionable solutions.`,
       video: p1Video,
       link: "https://www.figma.com/proto/hbABR9CVMz9bod50InohZM/Greenmind-Website-UI?page-id=191%3A28&node-id=191-29&viewport=300%2C1504%2C0.14&t=qRDrEVjBZtCo4bh8-1&scaling=scale-down-width&content-scaling=fixed",
-      label: { text: "USER EXPERIENCE", color: "#004735", code: "004735", rotation: "-4deg", marginRight: "100px" }
+      label: { text: "USER EXPERIENCE", color: "#004735", code: "004735", rotation: "-4deg", marginRight: "100px", textColor: "#FFFFFF" }
     },
     {
-      title: "FindFreeFood(Interaction Design)",
+      title: "FindFreeFood",
       description: `Find free food is a mobile application designed for students on campus to - you guessed it - find free food! This app keeps track of all the events going on campus and sends alerts whenever there is free food nearby.`,
       image: p2,
       link: "https://www.figma.com/proto/NspGcwBdveeytsVCci2FMx/Surabhi-Singh---Pitch-Course-Project?page-id=528%3A1262&node-id=530-1059&viewport=389%2C176%2C0.08&t=PnfUBU9qZoWmiYiH-1&scaling=scale-down-width&content-scaling=fixed",
@@ -27,11 +27,12 @@ const Projects = () => {
         color: "#5A6E27", 
         code: "#5A6E27", 
         rotation: "5deg", 
-        marginLeft: "-20px" 
+        marginLeft: "-20px",
+        textColor: "#FFFFFF" 
       }
     },
     {
-      title: "Derma-e (Branding)",
+      title: "Derma-e",
       description: `Redesigning a Pharmaceutical skin care brand to make it more visually appealing and creating a numeric system that makes skincare as easy as 1 2 3.`,
       image: p3,
       link: "https://www.behance.net/gallery/176141145/Derma-E-RebrandingCasestudy",
@@ -40,11 +41,12 @@ const Projects = () => {
         color: "#CE8EC0", 
         code: "#CE8EC0", 
         rotation: "-7deg", 
-        marginRight: "100px" 
+        marginRight: "100px",
+        textColor: "#FFFFFF"
       }
     },
     {
-      title: "Riff (Motion Design)",
+      title: "Riff",
       description:  `
       Riff is a hypothetical music label company, with a soda on the side!
 It's a harmonious blend of refreshment and rhythm, where every sip is a note in a delicious symphony. Whether you're into the classics or the latest hits, Riff is here to quench your thirst for both music and refreshment.
@@ -54,11 +56,11 @@ It's a harmonious blend of refreshment and rhythm, where every sip is a note in 
       label: { text: "MOTION DESIGN", color: "#DCE4CF", code: "#DCE4CF", rotation: "7deg", marginLeft: "20px" }
     },
     {
-      title: "Jazz Music Festival (Typography) ",
+      title: "Jazz Music Festival",
       description: "The Goal of this project was to explore the relationship between type and image. This brochure is text heavy but needs there is no information overload",
       image: p5,
       link: "https://www.behance.net/gallery/169089697/Rochester-Jazz-Festival-Brochure",
-      label: { text: "TYPOGRAPHY ", color: "#FF9416", code: "#FF9416", rotation: "7deg", marginLeft: "20px", marginRight: "60px" }
+      label: { text: "TYPOGRAPHY ", color: "#FF9416", code: "#FF9416", rotation: "7deg", marginLeft: "20px", marginRight: "60px",textColor: "#FFFFFF" }
     },
   ];
 

@@ -38,14 +38,14 @@ const About = () => {
           <ImageWrapper>
             <MotionLabel color="#FF6F00">
               <span className="text">L.L.Bean HQ</span>
-              <span className="code">MI</span>
+              <span className="code">ME</span>
             </MotionLabel>
             <OverlayImage src={Surabhi3} alt="Image 3" />
           </ImageWrapper>
           <ImageWrapper>
             <MotionLabel color="#D184C5">
               <span className="text">Bar Harbor</span>
-              <span className="code">MI</span>
+              <span className="code">ME</span>
             </MotionLabel>
             <OverlayImage src={Surabhi4} alt="Image 4" />
           </ImageWrapper>
