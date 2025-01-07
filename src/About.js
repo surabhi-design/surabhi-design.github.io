@@ -18,7 +18,13 @@ const About = () => {
           <ProfileImage src={SurabhiAboutImage} alt="Surabhi Singh" />
           <TextWrapper>
             <Paragraph>
-              My love for travel and exploration constantly fuels my creativity, providing fresh perspectives that I can incorporate into my work. One of the most life-changing experiences for me was being an observer at the WorldSkills Competition in Kazan, Russia, in 2019. This event offered invaluable insights into global design standards and further ignited my passion for design.
+            I am so passionate about good design that I travelled to Lyon, France to volunteer at WorldSkills Competition just so that I could identify the world design trends.
+            <br /> 
+With experience of over 4 years, I am fluent in Adobe Creative Suite, Figma, Cinema 4D, and Microsoft Office. I definitely know my softwares.
+<br /> 
+With a strong foundation of design principles, I have done my homework on what makes a design intuitive and magical. My designs work just the way you expect them to work. 
+<br />
+Being a Digital Designer, I am always curious about the design of other things. As a student of Vignelli’s I am a firm believer of Design is One. Hence if you can design one thing, you can design anything. 
               <br />
               Talk to me about design, chess, travel, and my love for Harry Potter books.
               <br />
