@@ -29,6 +29,7 @@ Being a Digital Designer, I am always curious about the design of other things. 
               Talk to me about:
               <ul>
                 <li>Design</li>
+                <li>Chess</li>
                 <li>Travel</li>
                 <li>Harry Potter books</li>
               </ul>
