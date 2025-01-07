@@ -1,4 +1,4 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[,,,,,,,,,,,,,,function(e,t,a){e.exports=a.p+"static/media/p1.dd6e25a9.mp4"},function(e,t,a){e.exports=a.p+"static/media/p2.b0dec239.png"},function(e,t,a){e.exports=a.p+"static/media/p3.2da1aab3.png"},function(e,t,a){e.exports=a.p+"static/media/p4.bf91eb42.png"},function(e,t,a){e.exports=a.p+"static/media/p5.3125a1ca.png"},function(e,t,a){e.exports=a.p+"static/media/surabhi2.fc676af9.jpeg"},function(e,t,a){e.exports=a.p+"static/media/helveticasurabhi.c1ee7c25.png"},function(e,t,a){e.exports=a.p+"static/media/surabhi3.d6b036b4.png"},function(e,t,a){e.exports=a.p+"static/media/surabhi4.18bc7081.png"},function(e,t,a){e.exports=a.p+"static/media/surabhi5.42c45f3b.png"},function(e,t,a){e.exports=a.p+"static/media/surabhi6.0abaae43.png"},function(e,t,a){e.exports=a.p+"static/media/surabhiresume.5e117652.pdf"},,function(e,t,a){e.exports=a(36)},,,,,,,function(e,t,a){},function(e,t,a){},function(e,t,a){"use strict";a.r(t);var i=a(0),n=a.n(i),o=a(11),r=a.n(o),l=(a(34),a(2)),d=a(7),s=a(3);var p=e=>{let{activeTab:t}=e;const a=()=>"projects"===t?"#f7ecd5":"#030303";return n.a.createElement(m,{style:{backgroundColor:(()=>{switch(t){case"projects":return"#0d1116";case"about":case"home":default:return"#EBF5F4"}})(),color:a()}},n.a.createElement(c,{to:"/",style:{color:a()}},"Surabhi Singh"),n.a.createElement(x,null,n.a.createElement(g,{to:"/projects",active:"projects"===t,textColor:a()},"Work"),n.a.createElement(g,{to:"/about",active:"about"===t,textColor:a()},"About")))};const m=s.a.header`
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[,,,,,,,,,,,,,,function(e,t,a){e.exports=a.p+"static/media/p1.dd6e25a9.mp4"},function(e,t,a){e.exports=a.p+"static/media/p2.b0dec239.png"},function(e,t,a){e.exports=a.p+"static/media/p3.2da1aab3.png"},function(e,t,a){e.exports=a.p+"static/media/p4.bf91eb42.png"},function(e,t,a){e.exports=a.p+"static/media/p5.3125a1ca.png"},function(e,t,a){e.exports=a.p+"static/media/surabhi2.fc676af9.jpeg"},function(e,t,a){e.exports=a.p+"static/media/helveticasurabhi.c1ee7c25.png"},function(e,t,a){e.exports=a.p+"static/media/surabhi3.d6b036b4.png"},function(e,t,a){e.exports=a.p+"static/media/surabhi4.18bc7081.png"},function(e,t,a){e.exports=a.p+"static/media/surabhi5.42c45f3b.png"},function(e,t,a){e.exports=a.p+"static/media/surabhi6.0abaae43.png"},function(e,t,a){e.exports=a.p+"static/media/surabhiresume.2b745720.pdf"},,function(e,t,a){e.exports=a(36)},,,,,,,function(e,t,a){},function(e,t,a){},function(e,t,a){"use strict";a.r(t);var i=a(0),n=a.n(i),o=a(11),r=a.n(o),l=(a(34),a(2)),d=a(7),m=a(3);var s=e=>{let{activeTab:t}=e;const a=()=>"projects"===t?"#f7ecd5":"#030303";return n.a.createElement(p,{style:{backgroundColor:(()=>{switch(t){case"projects":return"#0d1116";case"about":case"home":default:return"#EBF5F4"}})(),color:a()}},n.a.createElement(c,{to:"/",style:{color:a()}},"Surabhi Singh"),n.a.createElement(x,null,n.a.createElement(g,{to:"/projects",active:"projects"===t,textColor:a()},"Work"),n.a.createElement(g,{to:"/about",active:"about"===t,textColor:a()},"About")))};const p=m.a.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +19,7 @@
     padding: 10px 20px;
     flex-direction: column;
   }
-`,c=Object(s.a)(d.b)`
+`,c=Object(m.a)(d.b)`
   font-family: 'alpinaitalic', serif;
   font-size: 24px;
   text-transform: lowercase;
@@ -34,7 +34,7 @@
   @media (max-width: 480px) {
     font-size: 18px;
   }
-`,x=s.a.nav`
+`,x=m.a.nav`
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -43,7 +43,7 @@
     width: 100%;
     justify-content: center;
   }
-`,g=Object(s.a)(d.b)`
+`,g=Object(m.a)(d.b)`
   position: relative;
   padding-bottom: 5px;
   color: ${e=>{let{textColor:t}=e;return t}};
@@ -67,7 +67,7 @@
     margin-left: 10px;
     font-size: 14px;
   }
-`;var f=()=>{const[e,t]=Object(i.useState)("home"),a=Object(i.useRef)(null),o=Object(i.useRef)(null),r=Object(i.useRef)(null),l=()=>{const e=a.current.getBoundingClientRect().top,i=o.current.getBoundingClientRect().top,n=r.current.getBoundingClientRect().top;e<=100&&e>=-100?t("home"):i<=100&&i>=-100?t("projects"):n<=100&&n>=-100&&t("about")};return Object(i.useEffect)(()=>(window.addEventListener("scroll",l),()=>{window.removeEventListener("scroll",l)}),[]),n.a.createElement(h,null,n.a.createElement(p,{activeTab:e})," ",n.a.createElement(u,{ref:a,id:"home",isHome:!0},n.a.createElement(w,null,n.a.createElement(b,null,n.a.createElement(E,null,"Hi I'm a"),n.a.createElement(v,null,"Visual Designer"),n.a.createElement(y,null,"I'M SURABHI, AN ART DIRECTOR, AND A VISUAL DESIGNER ",n.a.createElement(C,null,"BASED IN NEW YORK.")," DRIVEN BY A PASSION FOR PROBLEM-SOLVING, MY DESIGN PHILOSOPHY ",n.a.createElement(C,null,"THRIVES ON VERSATILITY,")," AIMING TO ENCOMPASS DIVERSE FACETS. I CRAFT DESIGNS INFUSED WITH ",n.a.createElement(C,null,"EMOTIONAL INTELLIGENCE")," SPECIALIZING IN CREATING ",n.a.createElement(C,null,"IMPACTFUL DIGITAL EXPERIENCES,")," WITH EXPERTISE IN BRANDING, USER EXPERIENCE, AND MOTION DESIGN.")),n.a.createElement(I,null,n.a.createElement(N,{color:"#DCE4CF",textColor:"#030303",rotation:"-4deg",marginRight:"100px"},n.a.createElement("span",{className:"text"},"MOTION DESIGN"),n.a.createElement("span",{className:"code"},"DCE4CF")),n.a.createElement(N,{color:"#5A6E27",rotation:"5deg",marginLeft:"-20px"},n.a.createElement("span",{className:"text"},"INTERACTION DESIGN"),n.a.createElement("span",{className:"code"},"5A6E27")),n.a.createElement(N,{color:"#004735",rotation:"-7deg",marginRight:"100px"},n.a.createElement("span",{className:"text"},"USER EXPERIENCE"),n.a.createElement("span",{className:"code"},"004735")),n.a.createElement(N,{color:"#CE8EC0",rotation:"7deg",marginLeft:"20px"},n.a.createElement("span",{className:"text"},"BRANDING"),n.a.createElement("span",{className:"code"},"CE8EC0")),n.a.createElement(N,{color:"#FF9416",rotation:"7deg",marginLeft:"20px",marginRight:"60px"},n.a.createElement("span",{className:"text"},"TYPOGRAPHY"),n.a.createElement("span",{className:"code"},"FF9416")),n.a.createElement(N,{color:"#C1DD17",textColor:"#030303",rotation:"-1deg",marginLeft:"40px"},n.a.createElement("span",{className:"text"},"USER INTERFACE"),n.a.createElement("span",{className:"code"},"C1DD17"))))))};const h=s.a.div`
+`;var f=()=>{const[e,t]=Object(i.useState)("home"),a=Object(i.useRef)(null),o=Object(i.useRef)(null),r=Object(i.useRef)(null),l=()=>{const e=a.current.getBoundingClientRect().top,i=o.current.getBoundingClientRect().top,n=r.current.getBoundingClientRect().top;e<=100&&e>=-100?t("home"):i<=100&&i>=-100?t("projects"):n<=100&&n>=-100&&t("about")};return Object(i.useEffect)(()=>(window.addEventListener("scroll",l),()=>{window.removeEventListener("scroll",l)}),[]),n.a.createElement(h,null,n.a.createElement(s,{activeTab:e})," ",n.a.createElement(u,{ref:a,id:"home",isHome:!0},n.a.createElement(w,null,n.a.createElement(b,null,n.a.createElement(E,null,"Hi I'm a"),n.a.createElement(v,null,"Visual Designer"),n.a.createElement(y,null,"I'M SURABHI, AN ART DIRECTOR, AND A VISUAL DESIGNER ",n.a.createElement(F,null,"BASED IN NEW YORK.")," DRIVEN BY A PASSION FOR PROBLEM-SOLVING, MY DESIGN PHILOSOPHY ",n.a.createElement(F,null,"THRIVES ON VERSATILITY,")," AIMING TO ENCOMPASS DIVERSE FACETS. I CRAFT DESIGNS INFUSED WITH ",n.a.createElement(F,null,"EMOTIONAL INTELLIGENCE")," SPECIALIZING IN CREATING ",n.a.createElement(F,null,"IMPACTFUL DIGITAL EXPERIENCES,")," WITH EXPERTISE IN BRANDING, USER EXPERIENCE, AND MOTION DESIGN.")),n.a.createElement(C,null,n.a.createElement(I,{color:"#DCE4CF",textColor:"#030303",rotation:"-4deg",marginRight:"100px"},n.a.createElement("span",{className:"text"},"MOTION DESIGN"),n.a.createElement("span",{className:"code"},"DCE4CF")),n.a.createElement(I,{color:"#5A6E27",rotation:"5deg",marginLeft:"-20px"},n.a.createElement("span",{className:"text"},"INTERACTION DESIGN"),n.a.createElement("span",{className:"code"},"5A6E27")),n.a.createElement(I,{color:"#004735",rotation:"-7deg",marginRight:"100px"},n.a.createElement("span",{className:"text"},"USER EXPERIENCE"),n.a.createElement("span",{className:"code"},"004735")),n.a.createElement(I,{color:"#CE8EC0",rotation:"7deg",marginLeft:"20px"},n.a.createElement("span",{className:"text"},"BRANDING"),n.a.createElement("span",{className:"code"},"CE8EC0")),n.a.createElement(I,{color:"#FF9416",rotation:"7deg",marginLeft:"20px",marginRight:"60px"},n.a.createElement("span",{className:"text"},"TYPOGRAPHY"),n.a.createElement("span",{className:"code"},"FF9416")),n.a.createElement(I,{color:"#C1DD17",textColor:"#030303",rotation:"-1deg",marginLeft:"40px"},n.a.createElement("span",{className:"text"},"USER INTERFACE"),n.a.createElement("span",{className:"code"},"C1DD17"))))))};const h=m.a.div`
   background-color: #ebf5f4;
   color: #030303;
   width: 100%;
@@ -90,7 +90,7 @@
   @media (max-width: 480px) {
     padding: 0 10px;
   }
-`,u=s.a.div`
+`,u=m.a.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,7 +106,7 @@
   &:nth-child(even) {
     background-color: #ebf5f4;
   }
-`,w=s.a.div`
+`,w=m.a.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -133,7 +133,7 @@
     margin-top: 20px; /* Reduce margin to avoid cutting */
     padding: 0 10px; /* Add padding for better spacing */
   }
-`,b=s.a.div`
+`,b=m.a.div`
   flex: 3;
   margin-bottom: 50px;
   max-width: 650px;
@@ -178,7 +178,7 @@
       margin-top: 35px;
     }
   }
-`,E=s.a.h2`
+`,E=m.a.h2`
   font-family: 'flexalight', sans-serif;
   font-size: 48px;
   margin: 0;
@@ -194,7 +194,7 @@
   @media (max-width: 480px) {
     font-size: 28px;
   }
-`,v=s.a.h1`
+`,v=m.a.h1`
   font-family: 'alpinaitalic', sans-serif;
   font-size: 96px;
   font-style: italic;
@@ -211,7 +211,7 @@
   @media (max-width: 480px) {
     font-size: 48px;
   }
-`,y=s.a.p`
+`,y=m.a.p`
   font-family: 'flexalight', sans-serif;
   font-size: 15.5px;
   line-height: 1.6;
@@ -233,10 +233,10 @@
   @media (max-width: 480px) {
     font-size: 14px;
   }
-`,C=s.a.span`
+`,F=m.a.span`
   font-family: 'flexabold', sans-serif;
   font-weight: bold;
-`,I=s.a.div`
+`,C=m.a.div`
   flex: 2;
   display: flex;
   flex-direction: column;
@@ -260,7 +260,7 @@
     align-items: center;
     margin-top: 10px;
   }
-`,N=e=>{let{color:t,rotation:a,textColor:o,marginLeft:r,marginRight:l,children:d}=e;const[s,p]=Object(i.useState)({x:0,y:0});return n.a.createElement(z,{color:t,rotation:a,textColor:o,marginLeft:r,marginRight:l,offsetX:s.x,offsetY:s.y,onMouseMove:e=>{const{left:t,top:a,width:i,height:n}=e.target.getBoundingClientRect(),o=e.clientX-(t+i/2),r=e.clientY-(a+n/2);p({x:o/10,y:r/10})},onMouseLeave:()=>{p({x:0,y:0})}},d)},z=s.a.a`
+`,I=e=>{let{color:t,rotation:a,textColor:o,marginLeft:r,marginRight:l,children:d}=e;const[m,s]=Object(i.useState)({x:0,y:0});return n.a.createElement(N,{color:t,rotation:a,textColor:o,marginLeft:r,marginRight:l,offsetX:m.x,offsetY:m.y,onMouseMove:e=>{const{left:t,top:a,width:i,height:n}=e.target.getBoundingClientRect(),o=e.clientX-(t+i/2),r=e.clientY-(a+n/2);s({x:o/10,y:r/10})},onMouseLeave:()=>{s({x:0,y:0})}},d)},N=m.a.a`
   font-family: 'Helvetica', sans-serif;
   font-size: 16px;
   color: ${e=>{let{textColor:t}=e;return t||"#ffffff"}};
@@ -310,21 +310,21 @@
     padding: 8px 15px;
     font-size: 14px;
   }
-`;var R=a(14),k=a.n(R),F=a(15),j=a.n(F),S=a(16),A=a.n(S),T=a(17),D=a.n(T),O=a(18),L=a.n(O);var P=()=>{const e=[{title:"GreenMind (User Experience)",description:"Greenmind is a website that promotes positive climate narratives for environmentally conscious individuals seeking hope and actionable solutions.",video:k.a,link:"https://www.figma.com/proto/hbABR9CVMz9bod50InohZM/Greenmind-Website-UI?page-id=191%3A28&node-id=191-29&viewport=300%2C1504%2C0.14&t=qRDrEVjBZtCo4bh8-1&scaling=scale-down-width&content-scaling=fixed",label:{text:"USER EXPERIENCE",color:"#004735",code:"004735",rotation:"-4deg",marginRight:"100px"}},{title:"FindFreeFood(Interaction Design)",description:"Find free food is a mobile application designed for students on campus to - you guessed it - find free food! This app keeps track of all the events going on campus and sends alerts whenever there is free food nearby.",image:j.a,link:"https://www.figma.com/proto/NspGcwBdveeytsVCci2FMx/Surabhi-Singh---Pitch-Course-Project?page-id=528%3A1262&node-id=530-1059&viewport=389%2C176%2C0.08&t=PnfUBU9qZoWmiYiH-1&scaling=scale-down-width&content-scaling=fixed",label:{text:"INTERACTIVE DESIGN",color:"#5A6E27",code:"#5A6E27",rotation:"5deg",marginLeft:"-20px"}},{title:"Derma-e (Branding)",description:"Redesigning a Pharmaceutical skin care brand to make it more visually appealing and creating a numeric system that makes skincare as easy as 1 2 3.",image:A.a,link:"https://www.behance.net/gallery/176141145/Derma-E-RebrandingCasestudy",label:{text:"BRANDING",color:"#CE8EC0",code:"#CE8EC0",rotation:"-7deg",marginRight:"100px"}},{title:"Riff (Motion Design)",description:"\n      Riff is a hypothetical music label company, with a soda on the side!\nIt's a harmonious blend of refreshment and rhythm, where every sip is a note in a delicious symphony. Whether you're into the classics or the latest hits, Riff is here to quench your thirst for both music and refreshment.\n      ",image:D.a,link:"https://vimeo.com/880016031?share=copy",label:{text:"MOTION DESIGN",color:"#DCE4CF",code:"#DCE4CF",rotation:"7deg",marginLeft:"20px"}},{title:"Jazz Music Festival (Typography) ",description:"The Goal of this project was to explore the relationship between type and image. This brochure is text heavy but needs there is no information overload",image:L.a,link:"https://www.behance.net/gallery/169089697/Rochester-Jazz-Festival-Brochure",label:{text:"TYPOGRAPHY ",color:"#FF9416",code:"#FF9416",rotation:"7deg",marginLeft:"20px",marginRight:"60px"}}];return n.a.createElement(B,null,n.a.createElement(p,{activeTab:"projects"})," ",n.a.createElement(M,null,"Work")," ",n.a.createElement(G,null,e.map((e,t)=>n.a.createElement($,{key:t},n.a.createElement(U,null,e.video?n.a.createElement(Y,{src:e.video,muted:!0,autoPlay:!0,loop:!0}):n.a.createElement(H,{src:e.image,alt:e.title}),n.a.createElement(V,{color:e.label.color,rotation:e.label.rotation,textColor:"#030303",marginLeft:e.label.marginLeft,marginRight:e.label.marginRight},n.a.createElement("span",{className:"text"},e.label.text),n.a.createElement("span",{className:"code"},e.label.code))),n.a.createElement(W,null,n.a.createElement(X,null,e.title),n.a.createElement(J,null,e.description),n.a.createElement(_,{href:e.link,target:"_blank",rel:"noopener noreferrer"},"View Project"))))))};const B=s.a.div`
+`;var z=a(14),R=a.n(z),k=a(15),j=a.n(k),S=a(16),A=a.n(S),T=a(17),O=a.n(T),D=a(18),L=a.n(D);var P=()=>{const e=[{title:"GreenMind",description:"Greenmind is a website that promotes positive climate narratives for environmentally conscious individuals seeking hope and actionable solutions.",video:R.a,link:"https://www.figma.com/proto/hbABR9CVMz9bod50InohZM/Greenmind-Website-UI?page-id=191%3A28&node-id=191-29&viewport=300%2C1504%2C0.14&t=qRDrEVjBZtCo4bh8-1&scaling=scale-down-width&content-scaling=fixed",label:{text:"USER EXPERIENCE",color:"#004735",code:"004735",rotation:"-4deg",marginRight:"100px",textColor:"#FFFFFF"}},{title:"FindFreeFood",description:"Find free food is a mobile application designed for students on campus to - you guessed it - find free food! This app keeps track of all the events going on campus and sends alerts whenever there is free food nearby.",image:j.a,link:"https://www.figma.com/proto/NspGcwBdveeytsVCci2FMx/Surabhi-Singh---Pitch-Course-Project?page-id=528%3A1262&node-id=530-1059&viewport=389%2C176%2C0.08&t=PnfUBU9qZoWmiYiH-1&scaling=scale-down-width&content-scaling=fixed",label:{text:"INTERACTIVE DESIGN",color:"#5A6E27",code:"#5A6E27",rotation:"5deg",marginLeft:"-20px",textColor:"#FFFFFF"}},{title:"Derma-e",description:"Redesigning a Pharmaceutical skin care brand to make it more visually appealing and creating a numeric system that makes skincare as easy as 1 2 3.",image:A.a,link:"https://www.behance.net/gallery/176141145/Derma-E-RebrandingCasestudy",label:{text:"BRANDING",color:"#CE8EC0",code:"#CE8EC0",rotation:"-7deg",marginRight:"100px",textColor:"#FFFFFF"}},{title:"Riff",description:"\n      Riff is a hypothetical music label company, with a soda on the side!\nIt's a harmonious blend of refreshment and rhythm, where every sip is a note in a delicious symphony. Whether you're into the classics or the latest hits, Riff is here to quench your thirst for both music and refreshment.\n      ",image:O.a,link:"https://vimeo.com/880016031?share=copy",label:{text:"MOTION DESIGN",color:"#DCE4CF",code:"#DCE4CF",rotation:"7deg",marginLeft:"20px"}},{title:"Jazz Music Festival",description:"The Goal of this project was to explore the relationship between type and image. This brochure is text heavy but needs there is no information overload",image:L.a,link:"https://www.behance.net/gallery/169089697/Rochester-Jazz-Festival-Brochure",label:{text:"TYPOGRAPHY ",color:"#FF9416",code:"#FF9416",rotation:"7deg",marginLeft:"20px",marginRight:"60px",textColor:"#FFFFFF"}}];return n.a.createElement(G,null,n.a.createElement(s,{activeTab:"projects"})," ",n.a.createElement(M,null,"Work")," ",n.a.createElement(B,null,e.map((e,t)=>n.a.createElement($,{key:t},n.a.createElement(U,null,e.video?n.a.createElement(Y,{src:e.video,muted:!0,autoPlay:!0,loop:!0}):n.a.createElement(H,{src:e.image,alt:e.title}),n.a.createElement(V,{color:e.label.color,rotation:e.label.rotation,textColor:"#030303",marginLeft:e.label.marginLeft,marginRight:e.label.marginRight},n.a.createElement("span",{className:"text"},e.label.text),n.a.createElement("span",{className:"code"},e.label.code))),n.a.createElement(W,null,n.a.createElement(X,null,e.title),n.a.createElement(J,null,e.description),n.a.createElement(_,{href:e.link,target:"_blank",rel:"noopener noreferrer"},"View Project"))))))};const G=m.a.div`
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
   width: 100%;
   background-color: #0d1116; /* Set background color to match header */
   color: #fff;
-`,G=s.a.div`
+`,B=m.a.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   padding: 50px 20px;
   width: 100%;
-`,M=s.a.h1`
+`,M=m.a.h1`
   font-family: 'alpinaitalic', serif;
   font-size: 48px;
   color: #FFFFFF;
@@ -345,7 +345,7 @@
     margin: 10px 15px;
     font-size: 24px;
   }
-`,$=s.a.div`
+`,$=m.a.div`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -374,7 +374,7 @@
     align-items: center;
     padding: 0 15px; /* Add padding to prevent cut-off */
   }
-`,H=s.a.img`
+`,H=m.a.img`
   width: 670px;
   height: 312px;
   border-radius: 15px;
@@ -398,7 +398,7 @@
     height: auto;
     padding: 0 0;
   }
-`,Y=s.a.video`
+`,Y=m.a.video`
   width: 670px;
   height: 312px;
   border-radius: 15px;
@@ -422,7 +422,7 @@
     height: auto;
     padding: 0 0;
   }
-`,U=s.a.div`
+`,U=m.a.div`
   flex: 2;
   position: relative;
   margin-right: 40px;
@@ -443,7 +443,7 @@
     margin-bottom: 20px;
     padding: 0 50px;
   }
-`,V=s.a.div`
+`,V=m.a.div`
   position: absolute;
   top: 10px;
   left: 10px;
@@ -481,7 +481,7 @@
     margin-left: 10px;
     font-family: 'Courier New', monospace;
   }
-`,W=s.a.div`
+`,W=m.a.div`
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -497,7 +497,7 @@
     text-align: center;
     width: 100%;
   }
-`,X=s.a.h2`
+`,X=m.a.h2`
   font-size: 28px;
   margin-bottom: 10px;
   color: #FFFFFF;
@@ -518,7 +518,7 @@
     margin-left: 0;
     text-align: center; /* Center-align for small screens */
   }
-`,J=s.a.p`
+`,J=m.a.p`
   font-size: 16px;
   margin-bottom: 20px;
   margin-left: -250px;
@@ -547,7 +547,7 @@
     padding: 0 50px; /* Increased padding to prevent cutting off */
     text-align: center;
   }
-`,_=s.a.a`
+`,_=m.a.a`
   align-self: flex-start;
   padding: 10px 20px;
   font-size: 18px;
@@ -584,13 +584,13 @@
     color: #000;
     transform: translateY(-3px);
   }
-`;var Z=a(19),q=a.n(Z),K=a(20),Q=a.n(K),ee=a(21),te=a.n(ee),ae=a(22),ie=a.n(ae),ne=a(23),oe=a.n(ne),re=a(24),le=a.n(re),de=a(6),se=a(25),pe=a.n(se);var me=()=>n.a.createElement(ce,null,n.a.createElement(xe,null,"About Me")," ",n.a.createElement(ge,null,n.a.createElement(ue,null,n.a.createElement(we,{src:q.a,alt:"Surabhi Singh"}),n.a.createElement(be,null,n.a.createElement(Ee,null,"My love for travel and exploration constantly fuels my creativity, providing fresh perspectives that I can incorporate into my work. One of the most life-changing experiences for me was being an observer at the WorldSkills Competition in Kazan, Russia, in 2019. This event offered invaluable insights into global design standards and further ignited my passion for design.",n.a.createElement("br",null),"Talk to me about design, chess, travel, and my love for Harry Potter books.",n.a.createElement("br",null),n.a.createElement(fe,{href:"mailto:singhsurabhi.design@gmail.com"},n.a.createElement(de.b,null)," singhsurabhi.design@gmail.com"),n.a.createElement(he,{href:pe.a,target:"_blank",rel:"noopener noreferrer"},"View Resume")))),n.a.createElement(ye,null,n.a.createElement(Ce,{src:Q.a,alt:"Helvetica Surabhi"})),n.a.createElement(Ie,null,n.a.createElement(Ne,null,n.a.createElement(ve,{color:"#FF6F00"},n.a.createElement("span",{className:"text"},"L.L.Bean HQ"),n.a.createElement("span",{className:"code"},"MI")),n.a.createElement(ze,{src:te.a,alt:"Image 3"})),n.a.createElement(Ne,null,n.a.createElement(ve,{color:"#D184C5"},n.a.createElement("span",{className:"text"},"Bar Harbor"),n.a.createElement("span",{className:"code"},"MI")),n.a.createElement(ze,{src:ie.a,alt:"Image 4"})),n.a.createElement(Ne,null,n.a.createElement(ve,{color:"#4F7043"},n.a.createElement("span",{className:"text"},"Japanese Garden"),n.a.createElement("span",{className:"code"},"NY")),n.a.createElement(ze,{src:oe.a,alt:"Image 5"})),n.a.createElement(Ne,null,n.a.createElement(ve,{color:"#31521F"},n.a.createElement("span",{className:"text"},"NYC Library"),n.a.createElement("span",{className:"code"},"NY")),n.a.createElement(ze,{src:le.a,alt:"Image 6"})))));const ce=s.a.div`
+`;var Z=a(19),q=a.n(Z),K=a(20),Q=a.n(K),ee=a(21),te=a.n(ee),ae=a(22),ie=a.n(ae),ne=a(23),oe=a.n(ne),re=a(24),le=a.n(re),de=a(6),me=a(25),se=a.n(me);var pe=()=>n.a.createElement(ce,null,n.a.createElement(xe,null,"About Me")," ",n.a.createElement(ge,null,n.a.createElement(ue,null,n.a.createElement(we,{src:q.a,alt:"Surabhi Singh"}),n.a.createElement(be,null,n.a.createElement(Ee,null,"My love for travel and exploration constantly fuels my creativity, providing fresh perspectives that I can incorporate into my work. One of the most life-changing experiences for me was being an observer at the WorldSkills Competition in Kazan, Russia, in 2019. This event offered invaluable insights into global design standards and further ignited my passion for design.",n.a.createElement("br",null),"Talk to me about design, chess, travel, and my love for Harry Potter books.",n.a.createElement("br",null),n.a.createElement(fe,{href:"mailto:singhsurabhi.design@gmail.com"},n.a.createElement(de.b,null)," singhsurabhi.design@gmail.com"),n.a.createElement(he,{href:se.a,target:"_blank",rel:"noopener noreferrer"},"View Resume")))),n.a.createElement(ye,null,n.a.createElement(Fe,{src:Q.a,alt:"Helvetica Surabhi"})),n.a.createElement(Ce,null,n.a.createElement(Ie,null,n.a.createElement(ve,{color:"#FF6F00"},n.a.createElement("span",{className:"text"},"L.L.Bean HQ"),n.a.createElement("span",{className:"code"},"ME")),n.a.createElement(Ne,{src:te.a,alt:"Image 3"})),n.a.createElement(Ie,null,n.a.createElement(ve,{color:"#D184C5"},n.a.createElement("span",{className:"text"},"Bar Harbor"),n.a.createElement("span",{className:"code"},"ME")),n.a.createElement(Ne,{src:ie.a,alt:"Image 4"})),n.a.createElement(Ie,null,n.a.createElement(ve,{color:"#4F7043"},n.a.createElement("span",{className:"text"},"Japanese Garden"),n.a.createElement("span",{className:"code"},"NY")),n.a.createElement(Ne,{src:oe.a,alt:"Image 5"})),n.a.createElement(Ie,null,n.a.createElement(ve,{color:"#31521F"},n.a.createElement("span",{className:"text"},"NYC Library"),n.a.createElement("span",{className:"code"},"NY")),n.a.createElement(Ne,{src:le.a,alt:"Image 6"})))));const ce=m.a.div`
   background-color: #EBF5F4;
   color: #000;
   padding: 0 20px;
   max-width: 100vw;
   overflow-x: hidden;
-`,xe=s.a.h1`
+`,xe=m.a.h1`
   font-family: 'alpinaitalic', serif;
   font-size: 48px;
   margin: 70px 0 20px 50px; /* Increased top margin for spacing */
@@ -606,7 +606,7 @@
     font-size: 28px;
     margin: 40px 0 20px 20px;
   }
-`,ge=s.a.div`
+`,ge=m.a.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -620,7 +620,7 @@
   @media (max-width: 480px) {
     padding: 30px 15px;
   }
-`,fe=s.a.a`
+`,fe=m.a.a`
   font-size: 18px;
   margin-top: 14px;
   color: #000;
@@ -632,7 +632,7 @@
   &:hover {
     text-decoration: underline;
   }
-`,he=s.a.a`
+`,he=m.a.a`
   display: inline-block;
   margin-top: 12px;
   padding: 10px 20px;
@@ -646,7 +646,7 @@
   &:hover {
     background-color: #333;
   }
-`,ue=s.a.div`
+`,ue=m.a.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -666,7 +666,7 @@
       transform: translateY(0);
     }
   }
-`,we=s.a.img`
+`,we=m.a.img`
   width: 600px;
   height: auto;
   object-fit: cover;
@@ -691,7 +691,7 @@
   @media (max-width: 480px) {
     width: 200px;
   }
-`,be=s.a.div`
+`,be=m.a.div`
   flex: 1;
   text-align: left;
   padding: 0 20px;
@@ -708,7 +708,7 @@
       opacity: 1;
     }
   }
-`,Ee=s.a.p`
+`,Ee=m.a.p`
   font-size: 18px;
   line-height: 1.6;
   color: #555;
@@ -726,7 +726,7 @@
     color: #000;
     transition: color 0.3s ease;
   }
-`,ve=s.a.div`
+`,ve=m.a.div`
   position: absolute;
   top: 20px;
   left: 125px;
@@ -768,13 +768,13 @@
     padding: 5px 10px;
     width: 100px;
   }
-`,ye=s.a.div`
+`,ye=m.a.div`
   width: 100%;
   margin: 20px 0;
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 1.5s ease-out forwards;
-`,Ce=s.a.img`
+`,Fe=m.a.img`
   width: 100%;
   height: auto;
   transition: filter 0.3s ease;
@@ -782,7 +782,7 @@
   &:hover {
     filter: grayscale(100%);
   }
-`,Ie=s.a.div`
+`,Ce=m.a.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -793,7 +793,7 @@
     align-items: center;
     margin-top: -100px;
   }
-`,Ne=s.a.div`
+`,Ie=m.a.div`
   position: relative;
   width: 22%;
   height: auto; /* Ensure height adjusts to image */
@@ -817,12 +817,12 @@
     width: 100%;
     margin-bottom: 10px;
   }
-`,ze=s.a.img`
+`,Ne=m.a.img`
   width: 100%;
   height: auto; /* Adjusts height proportionally */
   object-fit: cover; /* Ensures image covers the container fully */
   border-radius: 8px;
-`;var Re=e=>{let{setShowFooter:t,setActiveTab:a}=e;const o=Object(i.useRef)(null),r=Object(i.useRef)(null),l=Object(i.useRef)(null);return Object(i.useEffect)(()=>{const e=()=>{const e=r.current.getBoundingClientRect().top,i=l.current.getBoundingClientRect().top,n=window.innerHeight;i<n/2?(a("about"),t(!0),console.log("Tab open:","about")):e<n/2?(a("projects"),t(!1),console.log("Tab open:","projects")):(a("home"),t(!1),console.log("Tab open:","home"))};return window.addEventListener("scroll",e),()=>window.removeEventListener("scroll",e)},[a,t]),n.a.createElement("div",null,n.a.createElement("div",{ref:o,id:"main"},n.a.createElement(f,null)),n.a.createElement("div",{ref:r,id:"projects"},n.a.createElement(P,null)),n.a.createElement("div",{ref:l,id:"about"},n.a.createElement(me,null)))};var ke=()=>n.a.createElement(Fe,null,n.a.createElement(je,null,n.a.createElement(Se,null,n.a.createElement("h2",null,"Surabhi Singh"),n.a.createElement("p",null,"UX Designer | Creative Thinker | Problem Solver"),n.a.createElement(Ae,null,'"Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs')),n.a.createElement(Te,null,n.a.createElement(De,{href:"https://www.linkedin.com/in/design-surabhi/",target:"_blank",rel:"noopener noreferrer"},n.a.createElement(de.c,{size:30})),n.a.createElement(De,{href:"https://www.behance.net/surabhisingh1/projects",target:"_blank",rel:"noopener noreferrer"},n.a.createElement(de.a,{size:30})),n.a.createElement(De,{href:"mailto:singhsurabhi.design@gmail.com",target:"_blank",rel:"noopener noreferrer"},n.a.createElement(de.b,{size:30})))),n.a.createElement(Oe,null,n.a.createElement("p",null,"\xa9 2024 Surabhi Singh. All rights reserved.")));const Fe=s.a.footer`
+`;var ze=e=>{let{setShowFooter:t,setActiveTab:a}=e;const o=Object(i.useRef)(null),r=Object(i.useRef)(null),l=Object(i.useRef)(null);return Object(i.useEffect)(()=>{const e=()=>{const e=r.current.getBoundingClientRect().top,i=l.current.getBoundingClientRect().top,n=window.innerHeight;i<n/2?(a("about"),t(!0),console.log("Tab open:","about")):e<n/2?(a("projects"),t(!1),console.log("Tab open:","projects")):(a("home"),t(!1),console.log("Tab open:","home"))};return window.addEventListener("scroll",e),()=>window.removeEventListener("scroll",e)},[a,t]),n.a.createElement("div",null,n.a.createElement("div",{ref:o,id:"main"},n.a.createElement(f,null)),n.a.createElement("div",{ref:r,id:"projects"},n.a.createElement(P,null)),n.a.createElement("div",{ref:l,id:"about"},n.a.createElement(pe,null)))};var Re=()=>n.a.createElement(ke,null,n.a.createElement(je,null,n.a.createElement(Se,null,n.a.createElement("h2",null,"Surabhi Singh"),n.a.createElement("p",null,"UX Designer | Creative Thinker | Problem Solver"),n.a.createElement(Ae,null,'"Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs')),n.a.createElement(Te,null,n.a.createElement(Oe,{href:"https://www.linkedin.com/in/design-surabhi/",target:"_blank",rel:"noopener noreferrer"},n.a.createElement(de.c,{size:30})),n.a.createElement(Oe,{href:"https://www.behance.net/surabhisingh1/projects",target:"_blank",rel:"noopener noreferrer"},n.a.createElement(de.a,{size:30})),n.a.createElement(Oe,{href:"mailto:singhsurabhi.design@gmail.com",target:"_blank",rel:"noopener noreferrer"},n.a.createElement(de.b,{size:30})))),n.a.createElement(De,null,n.a.createElement("p",null,"\xa9 2024 Surabhi Singh. All rights reserved.")));const ke=m.a.footer`
   width: 100%;
   padding: 40px 20px;
   background-color: #000;
@@ -836,14 +836,14 @@
   @media (max-width: 480px) {
     padding: 20px 10px;
   }
-`,je=s.a.div`
+`,je=m.a.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-`,Se=s.a.div`
+`,Se=m.a.div`
   margin-bottom: 20px;
 
   h2 {
@@ -869,7 +869,7 @@
       font-size: 14px;
     }
   }
-`,Ae=s.a.p`
+`,Ae=m.a.p`
   font-size: 16px;
   font-style: italic;
   color: #ccc;
@@ -881,18 +881,18 @@
   @media (max-width: 480px) {
     font-size: 12px;
   }
-`,Te=s.a.div`
+`,Te=m.a.div`
   display: flex;
   justify-content: center;
   gap: 20px;
-`,De=s.a.a`
+`,Oe=m.a.a`
   color: #fff;
   transition: color 0.3s ease;
 
   &:hover {
     color: #ccc;
   }
-`,Oe=s.a.div`
+`,De=m.a.div`
   font-size: 14px;
   color: #aaa;
   margin-top: 20px;
@@ -904,5 +904,5 @@
   @media (max-width: 480px) {
     font-size: 10px;
   }
-`;a(35);function Le(){const[e,t]=Object(i.useState)(!1),[a,o]=Object(i.useState)("home"),r=Object(l.m)();return Object(i.useEffect)(()=>{switch(r.pathname){case"/":o("home"),t(!1);break;case"/projects":o("projects"),t(!0);break;case"/about":o("about"),t(!0);break;default:o("home")}},[r.pathname]),n.a.createElement("div",{style:{backgroundColor:"projects"===a?"#000":"#EBF5F4",minHeight:"100vh"}},n.a.createElement(p,{activeTab:a}),n.a.createElement(l.c,null,n.a.createElement(l.a,{path:"/",element:n.a.createElement(Re,{setShowFooter:t,setActiveTab:o})}),n.a.createElement(l.a,{path:"/projects",element:n.a.createElement(P,{setActiveTab:o})}),n.a.createElement(l.a,{path:"/about",element:n.a.createElement(me,{setActiveTab:o})})),e&&n.a.createElement(ke,null))}function Pe(){return n.a.createElement(d.a,null,n.a.createElement(Le,null))}var Be=e=>{e&&e instanceof Function&&a.e(3).then(a.bind(null,37)).then(t=>{let{getCLS:a,getFID:i,getFCP:n,getLCP:o,getTTFB:r}=t;a(e),i(e),n(e),o(e),r(e)})};r.a.createRoot(document.getElementById("root")).render(n.a.createElement(n.a.StrictMode,null,n.a.createElement(Pe,null))),Be()}],[[27,1,2]]]);
-//# sourceMappingURL=main.98de60a8.chunk.js.map
+`;a(35);function Le(){const[e,t]=Object(i.useState)(!1),[a,o]=Object(i.useState)("home"),r=Object(l.m)();return Object(i.useEffect)(()=>{switch(r.pathname){case"/":o("home"),t(!1);break;case"/projects":o("projects"),t(!0);break;case"/about":o("about"),t(!0);break;default:o("home")}},[r.pathname]),n.a.createElement("div",{style:{backgroundColor:"projects"===a?"#000":"#EBF5F4",minHeight:"100vh"}},n.a.createElement(s,{activeTab:a}),n.a.createElement(l.c,null,n.a.createElement(l.a,{path:"/",element:n.a.createElement(ze,{setShowFooter:t,setActiveTab:o})}),n.a.createElement(l.a,{path:"/projects",element:n.a.createElement(P,{setActiveTab:o})}),n.a.createElement(l.a,{path:"/about",element:n.a.createElement(pe,{setActiveTab:o})})),e&&n.a.createElement(Re,null))}function Pe(){return n.a.createElement(d.a,null,n.a.createElement(Le,null))}var Ge=e=>{e&&e instanceof Function&&a.e(3).then(a.bind(null,37)).then(t=>{let{getCLS:a,getFID:i,getFCP:n,getLCP:o,getTTFB:r}=t;a(e),i(e),n(e),o(e),r(e)})};r.a.createRoot(document.getElementById("root")).render(n.a.createElement(n.a.StrictMode,null,n.a.createElement(Pe,null))),Ge()}],[[27,1,2]]]);
+//# sourceMappingURL=main.d80e4a5f.chunk.js.map
